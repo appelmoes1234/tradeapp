@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { marketSymbols, type MarketBar } from '../lib/market-data';
+import { marketSymbols, type MarketBar } from '../lib/market-symbols';
 
 type TradingViewPayload = {
   requestedSymbol: string;
