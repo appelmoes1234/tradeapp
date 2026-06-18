@@ -14,5 +14,11 @@
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "@mathieuc/tradingview": "file:vendor/tradingview-api"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
   }
 }
