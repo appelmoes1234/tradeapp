@@ -10,13 +10,13 @@
     "test": "node --test tests/web/*.test.mjs"
   },
   "dependencies": {
-    "next": "15",
-    "react": "19",
-    "react-dom": "19",
     "@mathieuc/tradingview": "file:vendor/tradingview-api",
-    "typescript": "^5.9.3",
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3"
+    "next": "14.2.30",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.4.5",
+    "@types/node": "20.14.10",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25"
   }
 }
