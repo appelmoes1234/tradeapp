@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { marketSymbols } from '../lib/market-data';
+import { marketSymbols } from '../lib/market-symbols';
 import type { RealBacktestResult, RealMarketAdvice } from '../lib/market-strategy';
 
 type MarketPayload = {
