@@ -1,0 +1,19 @@
+[project]
+name = "ftmo-advice-strategies"
+version = "0.1.0"
+description = "FTMO-constrained advisory strategy research and strategy definitions"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+ftmo-strategies = "ftmo_advice.strategies.cli:main"
