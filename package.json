@@ -13,9 +13,7 @@
     "next": "16.3.0-canary.51",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "@mathieuc/tradingview": "file:vendor/tradingview-api"
-  },
-  "devDependencies": {
+    "@mathieuc/tradingview": "file:vendor/tradingview-api",
     "typescript": "^5.9.3",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
